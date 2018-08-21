@@ -1,4 +1,4 @@
-import Augmented from "augmentedjs-next";
+import { isString } from "next-core-utilities";
 import { Colleague } from "presentation-mediator";
 import { Model } from "presentation-models";
 import Dom from "presentation-dom";
@@ -152,7 +152,7 @@ class DecoratorView extends Colleague {
     if (!mount) {
       mount = this.el;
     }
-    if (Augmented.isString(mount)) {
+    if (isString(mount)) {
       const qs = document.querySelector(mount);
       //console.log(`Query selector: ${qs}, mount: ${mount}, el: ${this.el}`);
       if (!qs) {
@@ -161,7 +161,7 @@ class DecoratorView extends Colleague {
       mount = qs;
     }
 
-    if (Augmented.isString(template)) {
+    if (isString(template)) {
       //console.log(`template: ${template}`);
       // html
       const currentHTML = mount.innerHTML;
@@ -204,7 +204,7 @@ class DecoratorView extends Colleague {
   boundElement(id) {
     if (this.el && id) {
       let el = this.el;
-      if (Augmented.isString(this.el)) {
+      if (isString(this.el)) {
         el = document.querySelector(this.el);
       }
       if (el) {

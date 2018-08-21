@@ -1,6 +1,6 @@
 {
   "name": "presentation-decorator",
-  "version": "2.5.2",
+  "version": "2.5.3",
   "description": "The Augmented.js Next - Presentation Decorator Module.",
   "main": "dist/presentation-decorator.js",
   "scripts": {
@@ -43,7 +43,7 @@
     "webpack-cli": "^2.1.5"
   },
   "dependencies": {
-    "augmentedjs-next": "^2.2.0",
+    "next-core-utilities": "^2.5.5",
     "presentation-dom": "^2.5.2",
     "presentation-mediator": "^2.5.2",
     "presentation-models": "^2.5.4",
