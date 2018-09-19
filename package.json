@@ -1,6 +1,6 @@
 {
   "name": "presentation-decorator",
-  "version": "2.5.3",
+  "version": "2.5.4",
   "description": "The Augmented.js Next - Presentation Decorator Module.",
   "main": "dist/presentation-decorator.js",
   "scripts": {
@@ -38,16 +38,16 @@
     "jsdom": "^11.12.0",
     "mocha": "^4.1.0",
     "mocha-jsdom": "^1.2.0",
-    "uglifyjs-webpack-plugin": "^1.2.7",
-    "webpack": "^4.16.5",
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "webpack": "^4.19.1",
     "webpack-cli": "^2.1.5"
   },
   "dependencies": {
-    "next-core-utilities": "^2.5.5",
-    "presentation-dom": "^2.5.2",
-    "presentation-mediator": "^2.5.2",
-    "presentation-models": "^2.5.4",
-    "presentation-widget": "^2.5.3"
+    "next-core-utilities": "^2.6.0",
+    "presentation-dom": "^2.8.0",
+    "presentation-mediator": "^2.5.7",
+    "presentation-models": "^2.6.0",
+    "presentation-widget": "^2.5.4"
   },
   "bugs": {
     "url": "https://github.com/Augmentedjs/presentation-decorator/issues"

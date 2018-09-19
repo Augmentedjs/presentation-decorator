@@ -62,6 +62,7 @@ class DecoratorView extends Colleague {
         //console.log(`click *[${this.bindingAttribute()}][${DECORATOR_ATTRIBUTE_ENUM.CLICK}]`);
       _events[`click *[${this.bindingAttribute()}][${DECORATOR_ATTRIBUTE_ENUM.CLICK}]`] = "_click";
     }
+    //console.debug("final events", _events);
     return _events;
   };
   _changed(event) {
@@ -182,16 +183,26 @@ class DecoratorView extends Colleague {
    */
   removeTemplate(mount, onlyContent) {
     if (mount) {
-      while (mount.firstChild) {
-        mount.removeChild(mount.firstChild);
+      let el;
+      if (isString(mount)) {
+        el = Dom.selector(mount);
+      } else {
+        el = mount;
       }
-      if (!onlyContent) {
-        const p = mount.parentNode;
-        if (p) {
-          p.removeChild(mount);
+      if (el) {
+        while (el.firstChild) {
+          el.removeChild(el.firstChild);
         }
+        if (!onlyContent) {
+          const p = el.parentNode;
+          if (p) {
+            p.removeChild(el);
+          }
+        }
+        this.delegateEvents();
+      } else {
+        console.warn(`template not removed from ${mount}`);
       }
-      this.delegateEvents();
     }
   };
   /**
