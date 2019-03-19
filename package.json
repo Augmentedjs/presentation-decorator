@@ -1,11 +1,11 @@
 {
   "name": "presentation-decorator",
-  "version": "2.5.5",
+  "version": "2.6.0",
   "description": "The Augmented.js Next - Presentation Decorator Module.",
   "main": "dist/presentation-decorator.js",
   "scripts": {
-    "dev": "webpack --mode development --module-bind js=babel-loader --progress",
-    "build": "webpack --mode production --module-bind js=babel-loader --progress",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
     "lint": "eslint ./src/presentation-decorator.js",
     "test": "mocha --require babel-core/register --require test/helper.js -c test/*Spec.js",
     "start": "node index.js",
@@ -25,29 +25,31 @@
   "author": "Bob Warren <jedi.master@augmentedjs.com> (http://www.augmentedjs.com)",
   "license": "Apache-2.0",
   "devDependencies": {
+    "acorn": "^6.1.1",
+    "@babel/core": "^7.3.4",
     "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5",
+    "babel-loader": "^8.0.5",
     "babel-plugin-transform-regenerator": "^6.26.0",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.7.0",
-    "chai": "^4.1.2",
-    "eslint": "^3.2.2",
-    "eslint-config-kentcdodds": "^9.0.2",
+    "chai": "^4.2.0",
+    "eslint": "^5.15.3",
+    "eslint-config-kentcdodds": "^14.3.1",
     "foodoc": "0.0.9",
     "jsdoc": "^3.5.5",
-    "jsdom": "^11.12.0",
-    "mocha": "^4.1.0",
-    "mocha-jsdom": "^1.2.0",
-    "uglifyjs-webpack-plugin": "^1.3.0",
-    "webpack": "^4.19.1",
-    "webpack-cli": "^2.1.5"
+    "jsdom": "^14.0.0",
+    "mocha": "^6.0.2",
+    "mocha-jsdom": "^2.0.0",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
   },
   "dependencies": {
-    "next-core-utilities": "^2.6.0",
-    "presentation-dom": "^2.8.0",
-    "presentation-mediator": "^2.5.7",
-    "presentation-models": "^2.6.0",
-    "presentation-widget": "^2.5.4"
+    "next-core-utilities": "^2.6.1",
+    "presentation-dom": "^2.8.1",
+    "presentation-mediator": "^2.5.8",
+    "presentation-models": "^2.6.2",
+    "presentation-widget": "^2.5.5"
   },
   "bugs": {
     "url": "https://github.com/Augmentedjs/presentation-decorator/issues"
