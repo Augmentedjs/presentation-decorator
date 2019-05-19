@@ -39,7 +39,16 @@ const DECORATOR_ATTRIBUTE_ENUM = {
 class DecoratorView extends Colleague {
   constructor(options) {
     super(options);
-    this.customEvents = {};
+
+    if (options.events) {
+      options.customEvents = options.events;
+    }
+
+    if (options.customEvents) {
+      this.customEvents = options.customEvents;
+    } else {
+      this.customEvents = {};
+    }
   };
   /**
    * Custom Events Property - merge into built-in events

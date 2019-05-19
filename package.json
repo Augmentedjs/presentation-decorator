@@ -1,6 +1,6 @@
 {
   "name": "presentation-decorator",
-  "version": "2.6.0",
+  "version": "2.6.1",
   "description": "The Augmented.js Next - Presentation Decorator Module.",
   "main": "dist/presentation-decorator.js",
   "scripts": {
@@ -25,30 +25,30 @@
   "author": "Bob Warren <jedi.master@augmentedjs.com> (http://www.augmentedjs.com)",
   "license": "Apache-2.0",
   "devDependencies": {
+    "@babel/core": "^7.4.4",
     "acorn": "^6.1.1",
-    "@babel/core": "^7.3.4",
     "babel-core": "^6.26.3",
-    "babel-loader": "^8.0.5",
+    "babel-loader": "^8.0.6",
     "babel-plugin-transform-regenerator": "^6.26.0",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.7.0",
     "chai": "^4.2.0",
-    "eslint": "^5.15.3",
-    "eslint-config-kentcdodds": "^14.3.1",
+    "eslint": "^5.16.0",
+    "eslint-config-kentcdodds": "^14.3.2",
     "foodoc": "0.0.9",
-    "jsdoc": "^3.5.5",
-    "jsdom": "^14.0.0",
-    "mocha": "^6.0.2",
+    "jsdoc": "^3.6.2",
+    "jsdom": "^14.1.0",
+    "mocha": "^6.1.4",
     "mocha-jsdom": "^2.0.0",
     "uglifyjs-webpack-plugin": "^2.1.2",
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.3.0"
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
   },
   "dependencies": {
     "next-core-utilities": "^2.6.1",
     "presentation-dom": "^2.8.1",
-    "presentation-mediator": "^2.5.8",
-    "presentation-models": "^2.6.2",
+    "presentation-mediator": "^2.5.9",
+    "presentation-models": "^2.6.3",
     "presentation-widget": "^2.5.5"
   },
   "bugs": {
