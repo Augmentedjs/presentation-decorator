@@ -1,6 +1,6 @@
 {
   "name": "presentation-decorator",
-  "version": "2.6.2",
+  "version": "2.6.3",
   "description": "The Augmented.js Next - Presentation Decorator Module.",
   "main": "dist/presentation-decorator.js",
   "scripts": {
