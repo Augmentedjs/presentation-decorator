@@ -40,11 +40,11 @@ class DecoratorView extends Colleague {
   constructor(options) {
     super(options);
 
-    if (options.events) {
+    if (options && options.events) {
       options.customEvents = options.events;
     }
 
-    if (options.customEvents) {
+    if (options && options.customEvents) {
       this.customEvents = options.customEvents;
     } else {
       this.customEvents = {};
@@ -60,7 +60,7 @@ class DecoratorView extends Colleague {
    * @property events
    */
   events() {
-    //console.log("calling events");
+    //console.debug("calling events");
     const _events = (this.customEvents) ? this.customEvents : {};
     if (this.name) {
       //console.log("calling events - name " + this.name);
