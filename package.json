@@ -1,6 +1,6 @@
 {
   "name": "presentation-decorator",
-  "version": "2.6.4",
+  "version": "2.6.6",
   "description": "The Augmented.js Next - Presentation Decorator Module.",
   "main": "dist/presentation-decorator.js",
   "scripts": {
@@ -33,11 +33,11 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.7.0",
     "chai": "^4.2.0",
-    "eslint": "^5.16.0",
+    "eslint": "^6.0.0",
     "eslint-config-kentcdodds": "^14.3.3",
     "foodoc": "0.0.9",
     "jsdoc": "^3.6.2",
-    "jsdom": "^14.1.0",
+    "jsdom": "^15.1.1",
     "mocha": "^6.1.4",
     "mocha-jsdom": "^2.0.0",
     "uglifyjs-webpack-plugin": "^2.1.3",
@@ -48,7 +48,7 @@
     "next-core-utilities": "^2.6.1",
     "presentation-dom": "^2.8.2",
     "presentation-mediator": "^2.7.0",
-    "presentation-models": "^2.6.3",
+    "presentation-models": "^2.6.4",
     "presentation-widget": "^2.5.6"
   },
   "bugs": {
