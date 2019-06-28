@@ -1,4 +1,5 @@
 # presentation-decorator
+
 Augmented.js Presentation Decorator (MVVM) View Module
 
 # API
@@ -80,11 +81,11 @@ supported annotations:<br/>
 
 ### events
 
-Events Property - Do Not Override
+Custom Events Property - merge into built-in events
 
 ### events
 
-Custom Events Property - merge into built-in events
+Events Property - Do Not Override
 
 ### initialize
 

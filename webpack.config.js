@@ -26,6 +26,12 @@ module.exports = {
     ]
   },
   externals: {
+    'next-core-model': {
+      commonjs: 'next-core-model',
+      commonjs2: 'next-core-model',
+      amd: 'next-core-model',
+      root: 'next-core-model'
+    },
     'next-core-utilities': {
       commonjs: 'next-core-utilities',
       commonjs2: 'next-core-utilities',
