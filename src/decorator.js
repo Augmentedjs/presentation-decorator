@@ -89,9 +89,9 @@ class DecoratorView extends Colleague {
       if (event.currentTarget.type === "checkbox") {
         // add an ability to use value
         const useValue = event.currentTarget.getAttribute(DECORATOR_ATTRIBUTE_ENUM.USE_VALUE);
-        console.debug("checkbox use value", useValue);
+        // console.debug("checkbox use value", useValue);
         if (useValue && val) {
-          
+
         } else {
           val = (event.currentTarget.checked) ? true : false;
         }
