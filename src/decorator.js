@@ -8,6 +8,7 @@ const DECORATOR_ATTRIBUTE_ENUM = {
   "CLICK": "data-click",
   "FUNCTION": "data-function",
   "STYLE": "data-style",
+  "USE_VALUE": "data-use-value",
   "APPEND_TEMPLATE": "data-append-template",
   "PREPEND_TEMPLATE": "data-prepend-template"
 };
@@ -27,14 +28,19 @@ const DECORATOR_ATTRIBUTE_ENUM = {
  * To add custom events, use customEvents instead of 'events'<br/>
  * supported annotations:<br/>
  * <ul>
- * <li>data-click</li>
- * <li>data-function</li>
- * <li>data-style</li>
- * <li>data-append-template</li>
- * <li>data-prepend-template</li>
+ * <li>data-click - calls a fucntion on click</li>
+ * <li>data-function - calls a function when change happens</li>
+ * <li>data-use-value - for checkboxes to use value vs toggle for data</li>
+ * <li>data-style - renders data (to a bound element) in a style of:
+ *  <ul>
+ *    <li>list</li>
+ *    <li>unordered-list</li>
+ *    <li>ordered-list</li>
+ *    <li>description-list</li>
+ *  </ul>
+ * </li>
  * </ul>
- * @memberof Presentation
- * @extends Presentation.Colleague
+ * @extends Colleague
  */
 class DecoratorView extends Colleague {
   constructor(options) {
@@ -74,18 +80,28 @@ class DecoratorView extends Colleague {
     //console.debug("final events", _events);
     return _events;
   };
+
   _changed(event) {
     if (event) {
-      let key = event.currentTarget.getAttribute(this.bindingAttribute());
+      const key = event.currentTarget.getAttribute(this.bindingAttribute());
       let val = event.currentTarget.value;
-      if(event.currentTarget.type === "checkbox") {
-        val = (event.currentTarget.checked) ? true : false;
+
+      if (event.currentTarget.type === "checkbox") {
+        // add an ability to use value
+        const useValue = event.currentTarget.getAttribute(DECORATOR_ATTRIBUTE_ENUM.USE_VALUE);
+        console.debug("checkbox use value", useValue);
+        if (useValue && val) {
+          
+        } else {
+          val = (event.currentTarget.checked) ? true : false;
+        }
       }
       this.model.set(( (key) ? key : event.currentTarget.name ), val);
       this._func(event);
       //console.debug("AUGMENTED: DecoratorView updated Model: " + JSON.stringify(this.model.toJSON()));
     }
   };
+
   _click(event) {
     if (event) {
       let func = event.currentTarget.getAttribute(DECORATOR_ATTRIBUTE_ENUM.CLICK);
@@ -301,7 +317,7 @@ class DecoratorView extends Colleague {
     if (!this.model) {
       this.model = new Model();
     }
-    this.model.on('change', func, this);
+    this.model.on("change", func, this);
   };
   /**
    * syncModelChange method - binds the model changes to a specified bound element
@@ -312,9 +328,9 @@ class DecoratorView extends Colleague {
       this.model = new Model();
     }
     if (element) {
-      this.model.on('change:' + element, this._syncData.bind(this, element), this);
+      this.model.on("change:" + element, this._syncData.bind(this, element), this);
     } else {
-      this.model.on('change', this._syncAllData.bind(this, element), this);
+      this.model.on("change", this._syncAllData.bind(this, element), this);
     }
   };
   /**
@@ -347,15 +363,15 @@ class DecoratorView extends Colleague {
         aEach = appendTemplateEach ? appendTemplateEach : null;*/
 
         if (renderStyle === "list" || renderStyle === "unordered-list") {
-          ee = Presentation.Widget.List(null, d, false);
+          ee = Widget.List(null, d, false);
           Dom.empty(e);
           e.appendChild(ee);
         } else if (renderStyle === "ordered-list") {
-          ee = Presentation.Widget.List(null, d, true);
+          ee = Widget.List(null, d, true);
           Dom.empty(e);
           e.appendChild(ee);
         } else if (renderStyle === "description-list") {
-          ee = Presentation.Widget.DescriptionList(null, d);
+          ee = Widget.DescriptionList(null, d);
           Dom.empty(e);
           e.appendChild(ee);
         }
@@ -388,14 +404,14 @@ class DecoratorView extends Colleague {
    * @param {func} func The function to call when changing (normally render)
    */
   unbindModelChange(func) {
-    this.model.unBind('change', func, this);
+    this.model.unBind("change", func, this);
   };
   /**
    * unbindModelSync method - unbinds the model changes to a specified bound element
    * @param {Element} element The element to bind as Document.Element or string
    */
   unbindModelSync(element) {
-    this.model.unBind('change:' + element, this._syncData, this);
+    this.model.unBind("change:" + element, this._syncData, this);
   }
 };
 

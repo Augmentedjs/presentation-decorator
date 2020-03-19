@@ -43,9 +43,7 @@ Augmented.js Presentation Decorator (MVVM) View Module
 
 ## DirectiveView
 
-**Extends Presentation.DecoratorView**
-
--   **See: Presentation.DecoratorView**
+**Extends DecoratorView**
 
 A DecoratorView that is designed to use templates and clean up when removed.
 
@@ -55,7 +53,7 @@ A DecoratorView that is designed to use templates and clean up when removed.
 
 ## DecoratorView
 
-**Extends Presentation.Colleague**
+**Extends Colleague**
 
 DecoratorView<br/>
 An MVVM view designed around decorating the DOM with bindings.
@@ -68,11 +66,17 @@ This is because all events and templates are used on the DOM directly.</em><br/>
 To add custom events, use customEvents instead of 'events'<br/>
 supported annotations:<br/>
 <ul>
-<li>data-click</li>
-<li>data-function</li>
-<li>data-style</li>
-<li>data-append-template</li>
-<li>data-prepend-template</li>
+<li>data-click - calls a fucntion on click</li>
+<li>data-function - calls a function when change happens</li>
+<li>data-use-value - for checkboxes to use value vs toggle for data</li>
+<li>data-style - renders data (to a bound element) in a style of:
+ <ul>
+   <li>list</li>
+   <li>unordered-list</li>
+   <li>ordered-list</li>
+   <li>description-list</li>
+ </ul>
+</li>
 </ul>
 
 ### Parameters
