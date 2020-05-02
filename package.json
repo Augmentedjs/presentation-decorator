@@ -1,6 +1,6 @@
 {
   "name": "presentation-decorator",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "The Augmented.js Next - Presentation Decorator Module.",
   "main": "dist/presentation-decorator.js",
   "scripts": {
@@ -28,24 +28,24 @@
   "author": "Bob Warren <jedi.master@augmentedjs.com> (http://www.augmentedjs.com)",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@babel/core": "^7.8.7",
-    "@babel/preset-env": "^7.8.7",
-    "babel-loader": "^8.0.6",
-    "@babel/register": "^7.8.6",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/register": "^7.9.0",
+    "babel-loader": "^8.1.0",
     "chai": "^4.2.0",
-    "documentation": "^12.1.4",
+    "documentation": "^12.3.0",
     "foodoc": "0.0.9",
-    "jsdoc": "^3.6.3",
-    "jsdom": "^16.2.1",
-    "mocha": "^7.1.1",
+    "jsdoc": "^3.6.4",
+    "jsdom": "^16.2.2",
+    "mocha": "^7.1.2",
     "mocha-jsdom": "^2.0.0",
-    "webpack": "^4.42.0",
+    "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
-    "next-core-utilities": "^2.8.0",
+    "next-core-utilities": "^2.9.0",
     "presentation-dom": "^2.8.2",
-    "presentation-mediator": "^2.7.1",
+    "presentation-mediator": "^3.0.0",
     "presentation-models": "^2.6.4",
     "presentation-widget": "^2.5.6"
   },

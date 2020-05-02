@@ -29,10 +29,6 @@ describe('Given Augmented Presentation Decorator View', () => {
 				d = null;
 			});
 
-			xit('DecoratorView is a Colleague', () => {
-				expect(d instanceof Decorator.Colleague).to.be.true;
-			});
-
 			it('can create an instance that is a DecoratorView', () => {
 				expect(d instanceof Decorator.DecoratorView).to.be.true;
 			});
