@@ -1,6 +1,6 @@
 {
   "name": "presentation-decorator",
-  "version": "3.0.2",
+  "version": "3.1.0",
   "description": "The Augmented.js Next - Presentation Decorator Module.",
   "main": "dist/presentation-decorator.js",
   "scripts": {
@@ -33,7 +33,7 @@
     "@babel/register": "^7.9.0",
     "babel-loader": "^8.1.0",
     "chai": "^4.2.0",
-    "documentation": "^12.3.0",
+    "documentation": "^13.0.0",
     "foodoc": "0.0.9",
     "jsdoc": "^3.6.4",
     "jsdom": "^16.2.2",
@@ -46,7 +46,7 @@
     "next-core-utilities": "^2.9.0",
     "presentation-dom": "^2.8.2",
     "presentation-mediator": "^3.0.0",
-    "presentation-models": "^2.6.4",
+    "presentation-models": "^3.1.0",
     "presentation-widget": "^2.5.6"
   },
   "bugs": {
