@@ -1,9 +1,10 @@
+<!-- start:source.tmpl.hbs -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-		<title>Globals</title>
+		<title>virtualDom.js</title>
 		<link rel="icon" type="image/png" href="favicon.png"/>
 		<!--[if lt IE 9]>
 		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -42,7 +43,7 @@
 			</style>
 		<script type="text/javascript">
 			window.TEMPLATE_OPTIONS = {"includeDate":true,"dateFormat":"ddd MMM Do YYYY","systemName":"Augmented.js Next Presentation","systemSummary":"Augmented.js Next Presentation - Simply Development.","systemLogo":"img/jensen-silo-circle-small.png","systemColor":"#607D8B","navMembers":[{"kind":"class","title":"Classes","summary":"All documented classes."},{"kind":"external","title":"Externals","summary":"All documented external members."},{"kind":"global","title":"Globals","summary":"All documented globals."},{"kind":"mixin","title":"Mixins","summary":"All documented mixins."},{"kind":"interface","title":"Interfaces","summary":"All documented interfaces."},{"kind":"module","title":"Modules","summary":"All documented modules."},{"kind":"namespace","title":"Namespaces","summary":"All documented namespaces."},{"kind":"tutorial","title":"Tutorials","summary":"All available tutorials."}],"footer":"<a href='http://www.augmentedjs.com'>Augmented.js Homepage</a>","copyright":"","linenums":true,"collapseSymbols":false,"inverseNav":true,"inlineNav":false,"outputSourceFiles":true,"sourceRootPath":null,"disablePackagePath":true,"outputSourcePath":true,"showTableOfContents":true,"showAccessFilter":true,"analytics":null,"methodHeadingReturns":false,"sort":"linenum, longname, version, since","search":true,"favicon":"favicon.png","stylesheets":[],"scripts":[],"monospaceLinks":false,"cleverLinks":false,"logoFile":"public/images/jensen-silo-circle-small.png","navType":"vertical","protocol":"html://"};
-			window.DOCLET_TOC_ENABLED = true;
+			window.DOCLET_TOC_ENABLED = false;
 			window.DOCLET_AFILTER_ENABLED = false;
 		</script>
 </head>
@@ -88,25 +89,77 @@
 	</header>
 	<!-- end:navbar.hbs -->		<div class="page-header">
 			<div class="container">
-				<span class="kind">global</span>
-				<h1><span class="name">Globals</span></h1>
-				<div class="summary"><p>All documented globals.</p></div>			</div>
+				<span class="kind">source</span>
+				<h1><span class="name">virtualDom.js</span></h1>
+			</div>
 		</div>
 	<div class="container content">
 		<div class="row">
-			<div class="col-md-9 main-content">
-						<ol class="breadcrumb">
-							<li><a href="index.html">Home</a></li>
-							<li class="active">Globals</li>
-						</ol>
-					<section>
-							<article class="secondary">
-							</article>
-					</section>
+			<div class="col-md-12 main-content">
+		<section class="source-section">
+			<article></article>
+			<pre class="prettyprint source language-javascript line-numbers"><code class="language-javascript">import DecoratorView from "./decorator.js";
+import { Dom, Diff } from "presentation-dom";
+
+/**
+ * ReactiveView - A reactive model-change managed view using virtual dom for reactive web components
+ * @extends DecoratorView
+ */
+class ReactiveView extends DecoratorView {
+  constructor(options = {}) {
+    super(options);
+  };
+
+  /**
+   * Render the template (this.template)
+   * @returns this Context of the view
+   */
+  async render() {
+    if (this._el &amp;&amp; this.template) {
+      await this.undelegateEvents();
+      const el = await Dom.selector(this._el);
+      if (el) {
+        const changed = await el.cloneNode(false);
+        changed.innerHTML = this.template;
+        // do the virtual dom magic
+        const templateMap = await Diff.createDOMMap(changed, false);
+        const orgMap = await Diff.createDOMMap(el, false);
+        // will use virtual dom to render updates
+
+        // console.debug("templateMap", templateMap);
+        // console.debug("orgMap", orgMap);
+        // console.debug("el", el);
+
+        await Diff.diff(templateMap, orgMap, el);
+        await this.delegateEvents();
+      } else {
+        console.warn(`${this.name} could not render without an element to render to or a template.  Element defined is "${this._el}."`);
+      }
+    } else {
+      console.warn(`${this.name} could not render without an element to render to or a template."`);
+    }
+    return this;
+  };
+
+  /**
+   * Remove the view and all binds
+   */
+  async remove() {
+    /* off to unbind the events */
+    await this.undelegateEvents();
+    await this.off();
+    await this.stopListening();
+    if (this._el) {
+      await Dom.empty(this._el);
+    }
+    return this;
+  };
+};
+
+export default ReactiveView;
+</code></pre>
+		</section>
 			</div>
-				<div class="col-md-3 side-content">
-					<nav class="toc hidden-print hidden-sm hidden-xs"></nav>
-				</div>
 		</div>
 	</div>
 	<footer>
@@ -138,3 +191,4 @@
 	
 </body>
 </html>
+<!-- end:source.tmpl.hbs -->

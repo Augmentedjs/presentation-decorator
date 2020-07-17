@@ -5,7 +5,7 @@ import DecoratorView from "./decorator.js";
  * @extends DecoratorView
  */
 class DirectiveView extends DecoratorView {
-  constructor(options) {
+  constructor(options = {}) {
     super(options);
   };
 

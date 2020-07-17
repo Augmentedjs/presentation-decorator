@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-		<title>DirectiveView</title>
+		<title>ReactiveView</title>
 		<link rel="icon" type="image/png" href="favicon.png"/>
 		<!--[if lt IE 9]>
 		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -89,7 +89,7 @@
 	<!-- end:navbar.hbs -->		<div class="page-header">
 			<div class="container">
 				<span class="kind">class</span>
-				<h1><span class="name">DirectiveView</span></h1>
+				<h1><span class="name">ReactiveView</span></h1>
 			</div>
 		</div>
 	<div class="container content">
@@ -98,7 +98,7 @@
 						<ol class="breadcrumb">
 							<li><a href="index.html">Home</a></li>
 							<li><a href="list_class.html">Classes</a></li>
-							<li class="active">DirectiveView</li>
+							<li class="active">ReactiveView</li>
 						</ol>
 						<div class="access-filter">
 								<label class="checkbox-inline">
@@ -113,11 +113,11 @@
 					<section>
 							<dl class="symbol primary">
 								<dt class="symbol-title class">
-			<h2 class="class"><span class="signature-new">new&nbsp;</span><span class="name">DirectiveView</span><span class="signature-params">()</span></h2>
+			<h2 class="class"><span class="signature-new">new&nbsp;</span><span class="name">ReactiveView</span><span class="signature-params">()</span></h2>
 </dt>
 <dd class="symbol-details class" style="max-height: 9999px;">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description classdesc"><p>A DecoratorView that is designed to use templates and clean up when removed.</p></div>
+			<div class="callout callout-primary"><h5>Description</h5>		<div class="description classdesc"><p>ReactiveView - A reactive model-change managed view using virtual dom for reactive web components</p></div>
 			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
 			
 			
@@ -145,7 +145,7 @@
 							<div class="form-group">
 								<label class="col-sm-3 control-label">Source</label>
 								<div class="col-sm-9">
-									<p class="form-control-static"><a href="directive.js.html">directive.js</a>, <a href="directive.js.html#line-8">line 8</a></p>
+									<p class="form-control-static"><a href="virtualDom.js.html">virtualDom.js</a>, <a href="virtualDom.js.html#line-9">line 9</a></p>
 								</div>
 							</div>
 			
@@ -159,6 +159,95 @@
 							<article class="secondary">
 									<h3>Methods</h3>
 									<dl class="symbol">
+											<hr/>
+											<dt class="symbol-title function public">
+			<h4 id="render" class="function public"><span class="signature-attribs">&lt;async> </span><span class="name">render</span><span class="signature-params">()</span></h4>
+		</dt>
+<dd class="symbol-details function public">
+	<div class="symbol-details-inner">
+			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>Render the template (this.template)</p></div>
+			</div>			<div class="callout callout-success"><h5>Returns</h5>		<form class="form-horizontal returns">
+							<div class="form-group">
+								<label class="col-sm-3 control-label returns-type"></label>
+								<div class="col-sm-9">
+									<div class="form-control-static returns-description"><p>this Context of the view</p></div>
+								</div>
+							</div>
+					</form>
+			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+							<!-- source -->
+							<div class="form-group">
+								<label class="col-sm-3 control-label">Source</label>
+								<div class="col-sm-9">
+									<p class="form-control-static"><a href="virtualDom.js.html">virtualDom.js</a>, <a href="virtualDom.js.html#line-17">line 17</a></p>
+								</div>
+							</div>
+			
+			
+			
+			
+					</form>
+			</div>	</div>
+</dd>
+											<hr/>
+											<dt class="symbol-title function public">
+			<h4 id="remove" class="function public"><span class="signature-attribs">&lt;async> </span><span class="name">remove</span><span class="signature-params">()</span></h4>
+		</dt>
+<dd class="symbol-details function public">
+	<div class="symbol-details-inner">
+			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>Remove the view and all binds</p></div>
+			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
+			
+			
+			
+			
+			
+			
+			
+							<!-- overrides -->
+							<div class="form-group">
+								<label class="col-sm-3 control-label">Overrides</label>
+								<div class="col-sm-9">
+									<p class="form-control-static"><a href="DecoratorView.html#remove">DecoratorView#remove</a></p>
+								</div>
+							</div>
+			
+			
+			
+			
+			
+			
+			
+			
+							<!-- source -->
+							<div class="form-group">
+								<label class="col-sm-3 control-label">Source</label>
+								<div class="col-sm-9">
+									<p class="form-control-static"><a href="virtualDom.js.html">virtualDom.js</a>, <a href="virtualDom.js.html#line-47">line 47</a></p>
+								</div>
+							</div>
+			
+			
+			
+			
+					</form>
+			</div>	</div>
+</dd>
 											<hr/>
 											<dt class="symbol-title function public inherited">
 			<h4 id="events" class="function public inherited"><span class="name">events</span><span class="signature-params">()</span></h4>
@@ -272,57 +361,6 @@
 								<label class="col-sm-3 control-label">Source</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="decorator.js.html">decorator.js</a>, <a href="decorator.js.html#line-129">line 129</a></p>
-								</div>
-							</div>
-			
-			
-			
-			
-					</form>
-			</div>	</div>
-</dd>
-											<hr/>
-											<dt class="symbol-title function public inherited">
-			<h4 id="remove" class="function public inherited"><span class="name">remove</span><span class="signature-params">()</span></h4>
-		</dt>
-<dd class="symbol-details function public inherited">
-	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>Remove method - Does not remove DOM elements only bindings.</p></div>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
-			
-			
-			
-			
-			
-			
-							<!-- inherits -->
-							<div class="form-group">
-								<label class="col-sm-3 control-label">Inherited From</label>
-								<div class="col-sm-9">
-									<p class="form-control-static"><a href="DecoratorView.html#remove">DecoratorView#remove</a></p>
-								</div>
-							</div>
-			
-							<!-- overrides -->
-							<div class="form-group">
-								<label class="col-sm-3 control-label">Overrides</label>
-								<div class="col-sm-9">
-									<p class="form-control-static"><a href="DecoratorView.html#remove">DecoratorView#remove</a></p>
-								</div>
-							</div>
-			
-			
-			
-			
-			
-			
-			
-			
-							<!-- source -->
-							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
-								<div class="col-sm-9">
-									<p class="form-control-static"><a href="decorator.js.html">decorator.js</a>, <a href="decorator.js.html#line-139">line 139</a></p>
 								</div>
 							</div>
 			

@@ -40,6 +40,10 @@ Augmented.js Presentation Decorator (MVVM) View Module
         -   [Parameters](#parameters-11)
     -   [unbindModelSync](#unbindmodelsync)
         -   [Parameters](#parameters-12)
+-   [ReactiveView](#reactiveview)
+    -   [Parameters](#parameters-13)
+    -   [render](#render)
+    -   [remove](#remove-1)
 
 ## DirectiveView
 
@@ -49,7 +53,7 @@ A DecoratorView that is designed to use templates and clean up when removed.
 
 ### Parameters
 
--   `options`  
+-   `options`   (optional, default `{}`)
 
 ## DecoratorView
 
@@ -81,7 +85,7 @@ supported annotations:<br/>
 
 ### Parameters
 
--   `options`  
+-   `options`   (optional, default `{}`)
 
 ### events
 
@@ -203,3 +207,23 @@ unbindModelSync method - unbinds the model changes to a specified bound element
 #### Parameters
 
 -   `element` **[Element](https://developer.mozilla.org/docs/Web/API/Element)** The element to bind as Document.Element or string
+
+## ReactiveView
+
+**Extends DecoratorView**
+
+ReactiveView - A reactive model-change managed view using virtual dom for reactive web components
+
+### Parameters
+
+-   `options`   (optional, default `{}`)
+
+### render
+
+Render the template (this.template)
+
+Returns **any** this Context of the view
+
+### remove
+
+Remove the view and all binds

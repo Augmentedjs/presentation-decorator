@@ -43,7 +43,7 @@ const DECORATOR_ATTRIBUTE_ENUM = {
  * @extends Colleague
  */
 class DecoratorView extends Colleague {
-  constructor(options) {
+  constructor(options = {}) {
     super(options);
 
     if (options && options.events) {
@@ -179,7 +179,7 @@ class DecoratorView extends Colleague {
       mount = this.el;
     }
     if (isString(mount)) {
-      const qs = document.querySelector(mount);
+      const qs = Dom.selector(mount);
       //console.log(`Query selector: ${qs}, mount: ${mount}, el: ${this.el}`);
       if (!qs) {
         return;
@@ -187,16 +187,17 @@ class DecoratorView extends Colleague {
       mount = qs;
     }
 
-    if (isString(template)) {
+    if (template && isString(template)) {
       //console.log(`template: ${template}`);
       // html
       const currentHTML = mount.innerHTML;
       mount.innerHTML = `${currentHTML}${template}`;
-    } else if ((template.nodeType && template.nodeName) && (template.nodeType > 0) && !((template.nodeName === "template") || (template.nodeName === "TEMPLATE"))) {
+    } else if ((template.nodeType && template.nodeName) && (template.nodeType > 0) &&
+                !((template.nodeName === "template") || (template.nodeName === "TEMPLATE"))) {
       // DOM
       mount.appendChild(template);
-    } else if (template instanceof DocumentFragment  || (template.nodeName === "template") || (template.nodeName === "TEMPLATE")) {
-      // Document Fragment
+    } else if (template instanceof DocumentFragment || (template.nodeName === "template") || (template.nodeName === "TEMPLATE")) {
+      // Document Fragment as a template tag
       Dom.injectTemplate(template, mount);
     }
     this.delegateEvents();
