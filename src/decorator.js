@@ -2,7 +2,7 @@ import { isString } from "next-core-utilities";
 import { Colleague } from "presentation-mediator";
 import { Model } from "presentation-models";
 import { Dom } from "presentation-dom";
-import Widget from "presentation-widget";
+import { Widget } from "presentation-widget";
 
 const DECORATOR_ATTRIBUTE_ENUM = {
   "CLICK": "data-click",
