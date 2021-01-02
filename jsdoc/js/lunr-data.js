@@ -76,13 +76,6 @@ window.lunrData = {
           "overrid",
           "properti"
         ],
-        "DirectiveView.html#initialize": [
-          "directiveview#initi",
-          "function",
-          "initi",
-          "method",
-          "overrid"
-        ],
         "DirectiveView.html#remove": [
           "bind",
           "directiveview#remov",
@@ -264,13 +257,6 @@ window.lunrData = {
           "overrid",
           "properti",
           "reactiveview#ev"
-        ],
-        "ReactiveView.html#initialize": [
-          "function",
-          "initi",
-          "method",
-          "overrid",
-          "reactiveview#initi"
         ],
         "ReactiveView.html#bindingAttribute": [
           "attribut",
@@ -478,13 +464,6 @@ window.lunrData = {
           "overrid",
           "properti"
         ],
-        "DecoratorView.html#initialize": [
-          "decoratorview#initi",
-          "function",
-          "initi",
-          "method",
-          "overrid"
-        ],
         "DecoratorView.html#remove": [
           "bind",
           "decoratorview#remov",
@@ -631,7 +610,7 @@ window.lunrData = {
           "unbindmodelsync"
         ]
       },
-      "length": 52
+      "length": 49
     },
     "tokenStore": {
       "root": {
@@ -933,58 +912,6 @@ window.lunrData = {
                                         }
                                       }
                                     },
-                                    "i": {
-                                      "docs": {},
-                                      "n": {
-                                        "docs": {},
-                                        "i": {
-                                          "docs": {},
-                                          "t": {
-                                            "docs": {},
-                                            "i": {
-                                              "docs": {
-                                                "DecoratorView.html#initialize": {
-                                                  "ref": "DecoratorView.html#initialize",
-                                                  "tf": 1150
-                                                }
-                                              }
-                                            }
-                                          }
-                                        },
-                                        "j": {
-                                          "docs": {},
-                                          "e": {
-                                            "docs": {},
-                                            "c": {
-                                              "docs": {},
-                                              "t": {
-                                                "docs": {},
-                                                "t": {
-                                                  "docs": {},
-                                                  "e": {
-                                                    "docs": {},
-                                                    "m": {
-                                                      "docs": {},
-                                                      "p": {
-                                                        "docs": {},
-                                                        "l": {
-                                                          "docs": {
-                                                            "DecoratorView.html#injectTemplate": {
-                                                              "ref": "DecoratorView.html#injectTemplate",
-                                                              "tf": 1150
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    },
                                     "r": {
                                       "docs": {},
                                       "e": {
@@ -1147,6 +1074,44 @@ window.lunrData = {
                                                     "DecoratorView.html#boundElement": {
                                                       "ref": "DecoratorView.html#boundElement",
                                                       "tf": 1150
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "i": {
+                                      "docs": {},
+                                      "n": {
+                                        "docs": {},
+                                        "j": {
+                                          "docs": {},
+                                          "e": {
+                                            "docs": {},
+                                            "c": {
+                                              "docs": {},
+                                              "t": {
+                                                "docs": {},
+                                                "t": {
+                                                  "docs": {},
+                                                  "e": {
+                                                    "docs": {},
+                                                    "m": {
+                                                      "docs": {},
+                                                      "p": {
+                                                        "docs": {},
+                                                        "l": {
+                                                          "docs": {
+                                                            "DecoratorView.html#injectTemplate": {
+                                                              "ref": "DecoratorView.html#injectTemplate",
+                                                              "tf": 1150
+                                                            }
+                                                          }
+                                                        }
+                                                      }
                                                     }
                                                   }
                                                 }
@@ -1523,58 +1488,6 @@ window.lunrData = {
                                         }
                                       }
                                     },
-                                    "i": {
-                                      "docs": {},
-                                      "n": {
-                                        "docs": {},
-                                        "i": {
-                                          "docs": {},
-                                          "t": {
-                                            "docs": {},
-                                            "i": {
-                                              "docs": {
-                                                "DirectiveView.html#initialize": {
-                                                  "ref": "DirectiveView.html#initialize",
-                                                  "tf": 1150
-                                                }
-                                              }
-                                            }
-                                          }
-                                        },
-                                        "j": {
-                                          "docs": {},
-                                          "e": {
-                                            "docs": {},
-                                            "c": {
-                                              "docs": {},
-                                              "t": {
-                                                "docs": {},
-                                                "t": {
-                                                  "docs": {},
-                                                  "e": {
-                                                    "docs": {},
-                                                    "m": {
-                                                      "docs": {},
-                                                      "p": {
-                                                        "docs": {},
-                                                        "l": {
-                                                          "docs": {
-                                                            "DirectiveView.html#injectTemplate": {
-                                                              "ref": "DirectiveView.html#injectTemplate",
-                                                              "tf": 1150
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    },
                                     "r": {
                                       "docs": {},
                                       "e": {
@@ -1737,6 +1650,44 @@ window.lunrData = {
                                                     "DirectiveView.html#boundElement": {
                                                       "ref": "DirectiveView.html#boundElement",
                                                       "tf": 1150
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "i": {
+                                      "docs": {},
+                                      "n": {
+                                        "docs": {},
+                                        "j": {
+                                          "docs": {},
+                                          "e": {
+                                            "docs": {},
+                                            "c": {
+                                              "docs": {},
+                                              "t": {
+                                                "docs": {},
+                                                "t": {
+                                                  "docs": {},
+                                                  "e": {
+                                                    "docs": {},
+                                                    "m": {
+                                                      "docs": {},
+                                                      "p": {
+                                                        "docs": {},
+                                                        "l": {
+                                                          "docs": {
+                                                            "DirectiveView.html#injectTemplate": {
+                                                              "ref": "DirectiveView.html#injectTemplate",
+                                                              "tf": 1150
+                                                            }
+                                                          }
+                                                        }
+                                                      }
                                                     }
                                                   }
                                                 }
@@ -2041,28 +1992,6 @@ window.lunrData = {
                     "index.html": {
                       "ref": "index.html",
                       "tf": 1300
-                    }
-                  }
-                }
-              }
-            },
-            "i": {
-              "docs": {},
-              "t": {
-                "docs": {},
-                "i": {
-                  "docs": {
-                    "DirectiveView.html#initialize": {
-                      "ref": "DirectiveView.html#initialize",
-                      "tf": 766.6666666666666
-                    },
-                    "ReactiveView.html#initialize": {
-                      "ref": "ReactiveView.html#initialize",
-                      "tf": 766.6666666666666
-                    },
-                    "DecoratorView.html#initialize": {
-                      "ref": "DecoratorView.html#initialize",
-                      "tf": 766.6666666666666
                     }
                   }
                 }
@@ -2555,58 +2484,6 @@ window.lunrData = {
                                       }
                                     }
                                   },
-                                  "i": {
-                                    "docs": {},
-                                    "n": {
-                                      "docs": {},
-                                      "i": {
-                                        "docs": {},
-                                        "t": {
-                                          "docs": {},
-                                          "i": {
-                                            "docs": {
-                                              "ReactiveView.html#initialize": {
-                                                "ref": "ReactiveView.html#initialize",
-                                                "tf": 1150
-                                              }
-                                            }
-                                          }
-                                        }
-                                      },
-                                      "j": {
-                                        "docs": {},
-                                        "e": {
-                                          "docs": {},
-                                          "c": {
-                                            "docs": {},
-                                            "t": {
-                                              "docs": {},
-                                              "t": {
-                                                "docs": {},
-                                                "e": {
-                                                  "docs": {},
-                                                  "m": {
-                                                    "docs": {},
-                                                    "p": {
-                                                      "docs": {},
-                                                      "l": {
-                                                        "docs": {
-                                                          "ReactiveView.html#injectTemplate": {
-                                                            "ref": "ReactiveView.html#injectTemplate",
-                                                            "tf": 1150
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  },
                                   "b": {
                                     "docs": {},
                                     "i": {
@@ -2706,6 +2583,44 @@ window.lunrData = {
                                                   "ReactiveView.html#boundElement": {
                                                     "ref": "ReactiveView.html#boundElement",
                                                     "tf": 1150
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "i": {
+                                    "docs": {},
+                                    "n": {
+                                      "docs": {},
+                                      "j": {
+                                        "docs": {},
+                                        "e": {
+                                          "docs": {},
+                                          "c": {
+                                            "docs": {},
+                                            "t": {
+                                              "docs": {},
+                                              "t": {
+                                                "docs": {},
+                                                "e": {
+                                                  "docs": {},
+                                                  "m": {
+                                                    "docs": {},
+                                                    "p": {
+                                                      "docs": {},
+                                                      "l": {
+                                                        "docs": {
+                                                          "ReactiveView.html#injectTemplate": {
+                                                            "ref": "ReactiveView.html#injectTemplate",
+                                                            "tf": 1150
+                                                          }
+                                                        }
+                                                      }
+                                                    }
                                                   }
                                                 }
                                               }
@@ -4396,10 +4311,6 @@ window.lunrData = {
                             "ref": "DirectiveView.html#events",
                             "tf": 110
                           },
-                          "DirectiveView.html#initialize": {
-                            "ref": "DirectiveView.html#initialize",
-                            "tf": 110
-                          },
                           "DirectiveView.html#remove": {
                             "ref": "DirectiveView.html#remove",
                             "tf": 110
@@ -4464,10 +4375,6 @@ window.lunrData = {
                             "ref": "ReactiveView.html#events",
                             "tf": 110
                           },
-                          "ReactiveView.html#initialize": {
-                            "ref": "ReactiveView.html#initialize",
-                            "tf": 110
-                          },
                           "ReactiveView.html#bindingAttribute": {
                             "ref": "ReactiveView.html#bindingAttribute",
                             "tf": 110
@@ -4522,10 +4429,6 @@ window.lunrData = {
                           },
                           "DecoratorView.html#events": {
                             "ref": "DecoratorView.html#events",
-                            "tf": 110
-                          },
-                          "DecoratorView.html#initialize": {
-                            "ref": "DecoratorView.html#initialize",
                             "tf": 110
                           },
                           "DecoratorView.html#remove": {
@@ -4664,24 +4567,12 @@ window.lunrData = {
                           "ref": "DirectiveView.html#events",
                           "tf": 16.666666666666664
                         },
-                        "DirectiveView.html#initialize": {
-                          "ref": "DirectiveView.html#initialize",
-                          "tf": 16.666666666666664
-                        },
                         "ReactiveView.html#events": {
                           "ref": "ReactiveView.html#events",
                           "tf": 16.666666666666664
                         },
-                        "ReactiveView.html#initialize": {
-                          "ref": "ReactiveView.html#initialize",
-                          "tf": 16.666666666666664
-                        },
                         "DecoratorView.html#events": {
                           "ref": "DecoratorView.html#events",
-                          "tf": 16.666666666666664
-                        },
-                        "DecoratorView.html#initialize": {
-                          "ref": "DecoratorView.html#initialize",
                           "tf": 16.666666666666664
                         }
                       }
@@ -4737,271 +4628,6 @@ window.lunrData = {
                       "ref": "DecoratorView.html",
                       "tf": 0.5617977528089888
                     }
-                  }
-                }
-              }
-            }
-          }
-        },
-        "m": {
-          "docs": {},
-          "e": {
-            "docs": {},
-            "t": {
-              "docs": {},
-              "h": {
-                "docs": {},
-                "o": {
-                  "docs": {},
-                  "d": {
-                    "docs": {
-                      "DirectiveView.html#initialize": {
-                        "ref": "DirectiveView.html#initialize",
-                        "tf": 16.666666666666664
-                      },
-                      "DirectiveView.html#remove": {
-                        "ref": "DirectiveView.html#remove",
-                        "tf": 8.333333333333332
-                      },
-                      "DirectiveView.html#bindingAttribute": {
-                        "ref": "DirectiveView.html#bindingAttribute",
-                        "tf": 7.142857142857142
-                      },
-                      "DirectiveView.html#injectTemplate": {
-                        "ref": "DirectiveView.html#injectTemplate",
-                        "tf": 8.333333333333332
-                      },
-                      "DirectiveView.html#removeTemplate": {
-                        "ref": "DirectiveView.html#removeTemplate",
-                        "tf": 7.142857142857142
-                      },
-                      "DirectiveView.html#boundElement": {
-                        "ref": "DirectiveView.html#boundElement",
-                        "tf": 8.333333333333332
-                      },
-                      "DirectiveView.html#bindModelChange": {
-                        "ref": "DirectiveView.html#bindModelChange",
-                        "tf": 8.333333333333332
-                      },
-                      "DirectiveView.html#syncModelChange": {
-                        "ref": "DirectiveView.html#syncModelChange",
-                        "tf": 6.25
-                      },
-                      "DirectiveView.html#unbindModelChange": {
-                        "ref": "DirectiveView.html#unbindModelChange",
-                        "tf": 8.333333333333332
-                      },
-                      "DirectiveView.html#unbindModelSync": {
-                        "ref": "DirectiveView.html#unbindModelSync",
-                        "tf": 6.25
-                      },
-                      "ReactiveView.html#initialize": {
-                        "ref": "ReactiveView.html#initialize",
-                        "tf": 16.666666666666664
-                      },
-                      "ReactiveView.html#bindingAttribute": {
-                        "ref": "ReactiveView.html#bindingAttribute",
-                        "tf": 7.142857142857142
-                      },
-                      "ReactiveView.html#injectTemplate": {
-                        "ref": "ReactiveView.html#injectTemplate",
-                        "tf": 8.333333333333332
-                      },
-                      "ReactiveView.html#removeTemplate": {
-                        "ref": "ReactiveView.html#removeTemplate",
-                        "tf": 7.142857142857142
-                      },
-                      "ReactiveView.html#boundElement": {
-                        "ref": "ReactiveView.html#boundElement",
-                        "tf": 8.333333333333332
-                      },
-                      "ReactiveView.html#bindModelChange": {
-                        "ref": "ReactiveView.html#bindModelChange",
-                        "tf": 8.333333333333332
-                      },
-                      "ReactiveView.html#syncModelChange": {
-                        "ref": "ReactiveView.html#syncModelChange",
-                        "tf": 6.25
-                      },
-                      "ReactiveView.html#unbindModelChange": {
-                        "ref": "ReactiveView.html#unbindModelChange",
-                        "tf": 8.333333333333332
-                      },
-                      "ReactiveView.html#unbindModelSync": {
-                        "ref": "ReactiveView.html#unbindModelSync",
-                        "tf": 6.25
-                      },
-                      "DecoratorView.html#initialize": {
-                        "ref": "DecoratorView.html#initialize",
-                        "tf": 16.666666666666664
-                      },
-                      "DecoratorView.html#remove": {
-                        "ref": "DecoratorView.html#remove",
-                        "tf": 8.333333333333332
-                      },
-                      "DecoratorView.html#bindingAttribute": {
-                        "ref": "DecoratorView.html#bindingAttribute",
-                        "tf": 7.142857142857142
-                      },
-                      "DecoratorView.html#injectTemplate": {
-                        "ref": "DecoratorView.html#injectTemplate",
-                        "tf": 8.333333333333332
-                      },
-                      "DecoratorView.html#removeTemplate": {
-                        "ref": "DecoratorView.html#removeTemplate",
-                        "tf": 7.142857142857142
-                      },
-                      "DecoratorView.html#boundElement": {
-                        "ref": "DecoratorView.html#boundElement",
-                        "tf": 8.333333333333332
-                      },
-                      "DecoratorView.html#bindModelChange": {
-                        "ref": "DecoratorView.html#bindModelChange",
-                        "tf": 8.333333333333332
-                      },
-                      "DecoratorView.html#syncModelChange": {
-                        "ref": "DecoratorView.html#syncModelChange",
-                        "tf": 6.25
-                      },
-                      "DecoratorView.html#unbindModelChange": {
-                        "ref": "DecoratorView.html#unbindModelChange",
-                        "tf": 8.333333333333332
-                      },
-                      "DecoratorView.html#unbindModelSync": {
-                        "ref": "DecoratorView.html#unbindModelSync",
-                        "tf": 6.25
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "o": {
-            "docs": {},
-            "u": {
-              "docs": {},
-              "n": {
-                "docs": {},
-                "t": {
-                  "docs": {
-                    "DirectiveView.html#injectTemplate": {
-                      "ref": "DirectiveView.html#injectTemplate",
-                      "tf": 41.66666666666666
-                    },
-                    "DirectiveView.html#removeTemplate": {
-                      "ref": "DirectiveView.html#removeTemplate",
-                      "tf": 40.47619047619047
-                    },
-                    "ReactiveView.html#injectTemplate": {
-                      "ref": "ReactiveView.html#injectTemplate",
-                      "tf": 41.66666666666666
-                    },
-                    "ReactiveView.html#removeTemplate": {
-                      "ref": "ReactiveView.html#removeTemplate",
-                      "tf": 40.47619047619047
-                    },
-                    "DecoratorView.html#injectTemplate": {
-                      "ref": "DecoratorView.html#injectTemplate",
-                      "tf": 41.66666666666666
-                    },
-                    "DecoratorView.html#removeTemplate": {
-                      "ref": "DecoratorView.html#removeTemplate",
-                      "tf": 40.47619047619047
-                    }
-                  }
-                }
-              }
-            },
-            "d": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "l": {
-                  "docs": {
-                    "DirectiveView.html#bindModelChange": {
-                      "ref": "DirectiveView.html#bindModelChange",
-                      "tf": 8.333333333333332
-                    },
-                    "DirectiveView.html#syncModelChange": {
-                      "ref": "DirectiveView.html#syncModelChange",
-                      "tf": 6.25
-                    },
-                    "DirectiveView.html#unbindModelChange": {
-                      "ref": "DirectiveView.html#unbindModelChange",
-                      "tf": 8.333333333333332
-                    },
-                    "DirectiveView.html#unbindModelSync": {
-                      "ref": "DirectiveView.html#unbindModelSync",
-                      "tf": 6.25
-                    },
-                    "ReactiveView.html": {
-                      "ref": "ReactiveView.html",
-                      "tf": 4.166666666666666
-                    },
-                    "ReactiveView.html#bindModelChange": {
-                      "ref": "ReactiveView.html#bindModelChange",
-                      "tf": 8.333333333333332
-                    },
-                    "ReactiveView.html#syncModelChange": {
-                      "ref": "ReactiveView.html#syncModelChange",
-                      "tf": 6.25
-                    },
-                    "ReactiveView.html#unbindModelChange": {
-                      "ref": "ReactiveView.html#unbindModelChange",
-                      "tf": 8.333333333333332
-                    },
-                    "ReactiveView.html#unbindModelSync": {
-                      "ref": "ReactiveView.html#unbindModelSync",
-                      "tf": 6.25
-                    },
-                    "DecoratorView.html#bindModelChange": {
-                      "ref": "DecoratorView.html#bindModelChange",
-                      "tf": 8.333333333333332
-                    },
-                    "DecoratorView.html#syncModelChange": {
-                      "ref": "DecoratorView.html#syncModelChange",
-                      "tf": 6.25
-                    },
-                    "DecoratorView.html#unbindModelChange": {
-                      "ref": "DecoratorView.html#unbindModelChange",
-                      "tf": 8.333333333333332
-                    },
-                    "DecoratorView.html#unbindModelSync": {
-                      "ref": "DecoratorView.html#unbindModelSync",
-                      "tf": 6.25
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "a": {
-            "docs": {},
-            "n": {
-              "docs": {},
-              "a": {
-                "docs": {},
-                "g": {
-                  "docs": {
-                    "ReactiveView.html": {
-                      "ref": "ReactiveView.html",
-                      "tf": 4.166666666666666
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "v": {
-            "docs": {},
-            "v": {
-              "docs": {},
-              "m": {
-                "docs": {
-                  "DecoratorView.html": {
-                    "ref": "DecoratorView.html",
-                    "tf": 0.5617977528089888
                   }
                 }
               }
@@ -5313,6 +4939,259 @@ window.lunrData = {
             }
           }
         },
+        "m": {
+          "docs": {},
+          "e": {
+            "docs": {},
+            "t": {
+              "docs": {},
+              "h": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "d": {
+                    "docs": {
+                      "DirectiveView.html#remove": {
+                        "ref": "DirectiveView.html#remove",
+                        "tf": 8.333333333333332
+                      },
+                      "DirectiveView.html#bindingAttribute": {
+                        "ref": "DirectiveView.html#bindingAttribute",
+                        "tf": 7.142857142857142
+                      },
+                      "DirectiveView.html#injectTemplate": {
+                        "ref": "DirectiveView.html#injectTemplate",
+                        "tf": 8.333333333333332
+                      },
+                      "DirectiveView.html#removeTemplate": {
+                        "ref": "DirectiveView.html#removeTemplate",
+                        "tf": 7.142857142857142
+                      },
+                      "DirectiveView.html#boundElement": {
+                        "ref": "DirectiveView.html#boundElement",
+                        "tf": 8.333333333333332
+                      },
+                      "DirectiveView.html#bindModelChange": {
+                        "ref": "DirectiveView.html#bindModelChange",
+                        "tf": 8.333333333333332
+                      },
+                      "DirectiveView.html#syncModelChange": {
+                        "ref": "DirectiveView.html#syncModelChange",
+                        "tf": 6.25
+                      },
+                      "DirectiveView.html#unbindModelChange": {
+                        "ref": "DirectiveView.html#unbindModelChange",
+                        "tf": 8.333333333333332
+                      },
+                      "DirectiveView.html#unbindModelSync": {
+                        "ref": "DirectiveView.html#unbindModelSync",
+                        "tf": 6.25
+                      },
+                      "ReactiveView.html#bindingAttribute": {
+                        "ref": "ReactiveView.html#bindingAttribute",
+                        "tf": 7.142857142857142
+                      },
+                      "ReactiveView.html#injectTemplate": {
+                        "ref": "ReactiveView.html#injectTemplate",
+                        "tf": 8.333333333333332
+                      },
+                      "ReactiveView.html#removeTemplate": {
+                        "ref": "ReactiveView.html#removeTemplate",
+                        "tf": 7.142857142857142
+                      },
+                      "ReactiveView.html#boundElement": {
+                        "ref": "ReactiveView.html#boundElement",
+                        "tf": 8.333333333333332
+                      },
+                      "ReactiveView.html#bindModelChange": {
+                        "ref": "ReactiveView.html#bindModelChange",
+                        "tf": 8.333333333333332
+                      },
+                      "ReactiveView.html#syncModelChange": {
+                        "ref": "ReactiveView.html#syncModelChange",
+                        "tf": 6.25
+                      },
+                      "ReactiveView.html#unbindModelChange": {
+                        "ref": "ReactiveView.html#unbindModelChange",
+                        "tf": 8.333333333333332
+                      },
+                      "ReactiveView.html#unbindModelSync": {
+                        "ref": "ReactiveView.html#unbindModelSync",
+                        "tf": 6.25
+                      },
+                      "DecoratorView.html#remove": {
+                        "ref": "DecoratorView.html#remove",
+                        "tf": 8.333333333333332
+                      },
+                      "DecoratorView.html#bindingAttribute": {
+                        "ref": "DecoratorView.html#bindingAttribute",
+                        "tf": 7.142857142857142
+                      },
+                      "DecoratorView.html#injectTemplate": {
+                        "ref": "DecoratorView.html#injectTemplate",
+                        "tf": 8.333333333333332
+                      },
+                      "DecoratorView.html#removeTemplate": {
+                        "ref": "DecoratorView.html#removeTemplate",
+                        "tf": 7.142857142857142
+                      },
+                      "DecoratorView.html#boundElement": {
+                        "ref": "DecoratorView.html#boundElement",
+                        "tf": 8.333333333333332
+                      },
+                      "DecoratorView.html#bindModelChange": {
+                        "ref": "DecoratorView.html#bindModelChange",
+                        "tf": 8.333333333333332
+                      },
+                      "DecoratorView.html#syncModelChange": {
+                        "ref": "DecoratorView.html#syncModelChange",
+                        "tf": 6.25
+                      },
+                      "DecoratorView.html#unbindModelChange": {
+                        "ref": "DecoratorView.html#unbindModelChange",
+                        "tf": 8.333333333333332
+                      },
+                      "DecoratorView.html#unbindModelSync": {
+                        "ref": "DecoratorView.html#unbindModelSync",
+                        "tf": 6.25
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "o": {
+            "docs": {},
+            "u": {
+              "docs": {},
+              "n": {
+                "docs": {},
+                "t": {
+                  "docs": {
+                    "DirectiveView.html#injectTemplate": {
+                      "ref": "DirectiveView.html#injectTemplate",
+                      "tf": 41.66666666666666
+                    },
+                    "DirectiveView.html#removeTemplate": {
+                      "ref": "DirectiveView.html#removeTemplate",
+                      "tf": 40.47619047619047
+                    },
+                    "ReactiveView.html#injectTemplate": {
+                      "ref": "ReactiveView.html#injectTemplate",
+                      "tf": 41.66666666666666
+                    },
+                    "ReactiveView.html#removeTemplate": {
+                      "ref": "ReactiveView.html#removeTemplate",
+                      "tf": 40.47619047619047
+                    },
+                    "DecoratorView.html#injectTemplate": {
+                      "ref": "DecoratorView.html#injectTemplate",
+                      "tf": 41.66666666666666
+                    },
+                    "DecoratorView.html#removeTemplate": {
+                      "ref": "DecoratorView.html#removeTemplate",
+                      "tf": 40.47619047619047
+                    }
+                  }
+                }
+              }
+            },
+            "d": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "l": {
+                  "docs": {
+                    "DirectiveView.html#bindModelChange": {
+                      "ref": "DirectiveView.html#bindModelChange",
+                      "tf": 8.333333333333332
+                    },
+                    "DirectiveView.html#syncModelChange": {
+                      "ref": "DirectiveView.html#syncModelChange",
+                      "tf": 6.25
+                    },
+                    "DirectiveView.html#unbindModelChange": {
+                      "ref": "DirectiveView.html#unbindModelChange",
+                      "tf": 8.333333333333332
+                    },
+                    "DirectiveView.html#unbindModelSync": {
+                      "ref": "DirectiveView.html#unbindModelSync",
+                      "tf": 6.25
+                    },
+                    "ReactiveView.html": {
+                      "ref": "ReactiveView.html",
+                      "tf": 4.166666666666666
+                    },
+                    "ReactiveView.html#bindModelChange": {
+                      "ref": "ReactiveView.html#bindModelChange",
+                      "tf": 8.333333333333332
+                    },
+                    "ReactiveView.html#syncModelChange": {
+                      "ref": "ReactiveView.html#syncModelChange",
+                      "tf": 6.25
+                    },
+                    "ReactiveView.html#unbindModelChange": {
+                      "ref": "ReactiveView.html#unbindModelChange",
+                      "tf": 8.333333333333332
+                    },
+                    "ReactiveView.html#unbindModelSync": {
+                      "ref": "ReactiveView.html#unbindModelSync",
+                      "tf": 6.25
+                    },
+                    "DecoratorView.html#bindModelChange": {
+                      "ref": "DecoratorView.html#bindModelChange",
+                      "tf": 8.333333333333332
+                    },
+                    "DecoratorView.html#syncModelChange": {
+                      "ref": "DecoratorView.html#syncModelChange",
+                      "tf": 6.25
+                    },
+                    "DecoratorView.html#unbindModelChange": {
+                      "ref": "DecoratorView.html#unbindModelChange",
+                      "tf": 8.333333333333332
+                    },
+                    "DecoratorView.html#unbindModelSync": {
+                      "ref": "DecoratorView.html#unbindModelSync",
+                      "tf": 6.25
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "a": {
+            "docs": {},
+            "n": {
+              "docs": {},
+              "a": {
+                "docs": {},
+                "g": {
+                  "docs": {
+                    "ReactiveView.html": {
+                      "ref": "ReactiveView.html",
+                      "tf": 4.166666666666666
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "v": {
+            "docs": {},
+            "v": {
+              "docs": {},
+              "m": {
+                "docs": {
+                  "DecoratorView.html": {
+                    "ref": "DecoratorView.html",
+                    "tf": 0.5617977528089888
+                  }
+                }
+              }
+            }
+          }
+        },
         "v": {
           "docs": {},
           "i": {
@@ -5498,7 +5377,7 @@ window.lunrData = {
           }
         }
       },
-      "length": 487
+      "length": 472
     },
     "corpusTokens": [
       "abil",
@@ -5541,7 +5420,6 @@ window.lunrData = {
       "decoratorview#bindmodelchang",
       "decoratorview#boundel",
       "decoratorview#ev",
-      "decoratorview#initi",
       "decoratorview#injecttempl",
       "decoratorview#remov",
       "decoratorview#removeclass",
@@ -5561,7 +5439,6 @@ window.lunrData = {
       "directiveview#bindmodelchang",
       "directiveview#boundel",
       "directiveview#ev",
-      "directiveview#initi",
       "directiveview#injecttempl",
       "directiveview#remov",
       "directiveview#removeclass",
@@ -5591,7 +5468,6 @@ window.lunrData = {
       "identifi",
       "import",
       "index",
-      "initi",
       "inject",
       "injecttempl",
       "instead",
@@ -5621,7 +5497,6 @@ window.lunrData = {
       "reactiveview#bindmodelchang",
       "reactiveview#boundel",
       "reactiveview#ev",
-      "reactiveview#initi",
       "reactiveview#injecttempl",
       "reactiveview#remov",
       "reactiveview#removeclass",
@@ -5724,16 +5599,6 @@ window.lunrData = {
       "tags": "DirectiveView#events events",
       "summary": "",
       "description": "Events Property - Do Not Override"
-    },
-    "DirectiveView.html#initialize": {
-      "id": "DirectiveView.html#initialize",
-      "kind": "function",
-      "title": "initialize()",
-      "longname": "DirectiveView#initialize",
-      "name": "initialize",
-      "tags": "DirectiveView#initialize initialize",
-      "summary": "",
-      "description": "Initialize method - Do Not Override"
     },
     "DirectiveView.html#remove": {
       "id": "DirectiveView.html#remove",
@@ -5906,16 +5771,6 @@ window.lunrData = {
       "summary": "",
       "description": "Events Property - Do Not Override"
     },
-    "ReactiveView.html#initialize": {
-      "id": "ReactiveView.html#initialize",
-      "kind": "function",
-      "title": "initialize()",
-      "longname": "ReactiveView#initialize",
-      "name": "initialize",
-      "tags": "ReactiveView#initialize initialize",
-      "summary": "",
-      "description": "Initialize method - Do Not Override"
-    },
     "ReactiveView.html#bindingAttribute": {
       "id": "ReactiveView.html#bindingAttribute",
       "kind": "function",
@@ -6056,16 +5911,6 @@ window.lunrData = {
       "tags": "DecoratorView#events events",
       "summary": "",
       "description": "Events Property - Do Not Override"
-    },
-    "DecoratorView.html#initialize": {
-      "id": "DecoratorView.html#initialize",
-      "kind": "function",
-      "title": "initialize()",
-      "longname": "DecoratorView#initialize",
-      "name": "initialize",
-      "tags": "DecoratorView#initialize initialize",
-      "summary": "",
-      "description": "Initialize method - Do Not Override"
     },
     "DecoratorView.html#remove": {
       "id": "DecoratorView.html#remove",

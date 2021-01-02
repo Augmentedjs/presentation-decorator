@@ -46,6 +46,10 @@ class DecoratorView extends Colleague {
   constructor(options = {}) {
     super(options);
 
+    if (!this.model) {
+      this.model = new Model();
+    }
+  
     if (options && options.events) {
       options.customEvents = options.events;
     }
@@ -123,16 +127,7 @@ class DecoratorView extends Colleague {
       }*/
     }
   };
-  /**
-   * Initialize method - Do Not Override
-   */
-  initialize(options) {
-    this.init(options);
 
-    if (!this.model) {
-      this.model = new Model();
-    }
-  };
   /**
    * Remove method - Does not remove DOM elements only bindings.
    */

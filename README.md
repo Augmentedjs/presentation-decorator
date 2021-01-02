@@ -14,34 +14,32 @@ Augmented.js Presentation Decorator (MVVM) View Module
     -   [Parameters](#parameters-1)
     -   [events](#events)
     -   [events](#events-1)
-    -   [initialize](#initialize)
-        -   [Parameters](#parameters-2)
     -   [remove](#remove)
     -   [bindingAttribute](#bindingattribute)
     -   [injectTemplate](#injecttemplate)
-        -   [Parameters](#parameters-3)
+        -   [Parameters](#parameters-2)
     -   [removeTemplate](#removetemplate)
-        -   [Parameters](#parameters-4)
+        -   [Parameters](#parameters-3)
     -   [boundElement](#boundelement)
-        -   [Parameters](#parameters-5)
+        -   [Parameters](#parameters-4)
         -   [Examples](#examples)
     -   [syncBoundElement](#syncboundelement)
-        -   [Parameters](#parameters-6)
+        -   [Parameters](#parameters-5)
     -   [syncAllBoundElements](#syncallboundelements)
     -   [addClass](#addclass)
-        -   [Parameters](#parameters-7)
+        -   [Parameters](#parameters-6)
     -   [removeClass](#removeclass)
-        -   [Parameters](#parameters-8)
+        -   [Parameters](#parameters-7)
     -   [bindModelChange](#bindmodelchange)
-        -   [Parameters](#parameters-9)
+        -   [Parameters](#parameters-8)
     -   [syncModelChange](#syncmodelchange)
-        -   [Parameters](#parameters-10)
+        -   [Parameters](#parameters-9)
     -   [unbindModelChange](#unbindmodelchange)
-        -   [Parameters](#parameters-11)
+        -   [Parameters](#parameters-10)
     -   [unbindModelSync](#unbindmodelsync)
-        -   [Parameters](#parameters-12)
+        -   [Parameters](#parameters-11)
 -   [ReactiveView](#reactiveview)
-    -   [Parameters](#parameters-13)
+    -   [Parameters](#parameters-12)
     -   [render](#render)
     -   [remove](#remove-1)
 
@@ -94,14 +92,6 @@ Custom Events Property - merge into built-in events
 ### events
 
 Events Property - Do Not Override
-
-### initialize
-
-Initialize method - Do Not Override
-
-#### Parameters
-
--   `options`  
 
 ### remove
 
